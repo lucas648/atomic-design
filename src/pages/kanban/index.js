@@ -1,5 +1,10 @@
-import { Route } from 'react-router-dom'
-
+import { Component } from 'react'
 import KanbanComponent from './component'
 
-export const route = <Route component={KanbanComponent} path='/kanban' key={'kanbam'}/>
+export default class Kanban extends Component {
+  render() {
+    return(
+        <KanbanComponent/>
+    )
+  }
+}

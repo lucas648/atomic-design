@@ -1,5 +1,10 @@
-import { Route } from 'react-router-dom'
-
+import { Component } from 'react'
 import HomeComponent from './component'
 
-export const route = <Route exact component={HomeComponent} path='/' key={'home'}/>
+export default class Homme extends Component {
+  render() {
+    return(
+      <HomeComponent/>
+    )
+  }
+}

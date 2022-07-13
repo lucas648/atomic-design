@@ -1,5 +1,5 @@
-export default function KanbanComponent() {
+export default function HomeComponent() {
   return(
-    <h1>Kanban Page</h1>
+    <h1>Home Page</h1>
   )
 }

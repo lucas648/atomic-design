@@ -1,5 +1,10 @@
-import { Route } from 'react-router-dom'
-
+import { Component } from 'react'
 import AtomicComponent from './component'
 
-export const route = <Route component={AtomicComponent} path='/atomic' key={'atomic'}/>
+export default class Atomic extends Component {
+  render() {
+    return(
+      <AtomicComponent/>
+    )
+  }
+}
