@@ -2,7 +2,7 @@ import Main from './templates/main';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Main/>
     </div>
   );

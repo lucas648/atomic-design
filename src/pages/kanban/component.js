@@ -1,5 +1,7 @@
 export default function HomeComponent() {
   return(
-    <h1>Kanban Component</h1>
+    <div className="container">
+      <h1>Kanban Component</h1>
+    </div>
   )
 }

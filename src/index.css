@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: aqua;
+  padding: 16px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+li{
+  padding: 16px ;
+}
+
+form{
+  display: flex;
+  align-items: center;
+}
+
+.title-home{
+  text-decoration: auto;
+  font-size: 22px;
+  color: black;
+}
+
+.header-items{
+  text-decoration: auto;
+  font-size: 18px;
+  color: red;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-input{
+  border: 2px solid;
+}

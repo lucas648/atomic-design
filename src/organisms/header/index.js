@@ -6,8 +6,8 @@ import SearchKeyword from '../../molecules/search-keyword'
 
 export default function Header(){
   return(
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">Novatics</Link>
+    <nav>
+      <Link className="title-home" to="/">Novatics</Link>
 
       <NavbarMenu />
       <SearchKeyword />
